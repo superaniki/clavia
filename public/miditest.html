@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jazz-Plugin Version</title>
+
+<style type="text/css">
+.hidden {
+ visibility: hidden;
+ width: 0px;
+ height: 0px;
+ margin: 0px;
+ padding: 0px;
+ border-style: none;
+ border-width: 0px;
+ max-width: 0px;
+ max-height: 0px;
+}
+.download {
+ font-size:1.4em;
+ font-weight:bold;
+}
+.tab {
+ font-family:Courier New, monospace;
+ font-weight:bold;
+}
+.tab td {
+ padding:0 1em;
+}
+.tab .yes {
+ color:#0a0;
+}
+.tab .no {
+ color:#a00;
+}
+.tab .unknown {
+ color:#aaa;
+}
+</style>
+</head>
+
+<body>
+<object id="Jazz1" classid="CLSID:1ACE1618-1C7D-4561-AEE1-34842AA85E90" class="hidden">
+  <object id="Jazz2" type="audio/x-jazz" class="hidden">&nbsp;</object>
+</object>
+
+<h1 id=hdr>Jazz-Plugin</h1>
+<div id=out></div>
+
+<script><!--
+function older(v1,v2){ // v1 older than v2
+ var a1=v1.split('.');
+ var a2=v2.split('.');
+ if(a1[0]<a2[0]) return true;
+ if(a1[0]>a2[0]) return false;
+ return a1[1]<a2[1];
+}
+var latest="1.3";
+var hdr=document.getElementById("hdr");
+var out=document.getElementById("out");
+var Jazz=document.getElementById("Jazz1"); if(!Jazz || !Jazz.isJazz) Jazz = document.getElementById("Jazz2");
+var download="<p class=download>Download <a href=http://jazz-soft.net/download/Jazz-Plugin>Jazz-Plugin v."+latest+"</a>!</p>";
+if(!Jazz || !Jazz.isJazz){
+ hdr.innerHTML="Jazz-Plugin is not installed";
+ out.innerHTML=download;
+} else {
+ var ver=Jazz.version;
+ hdr.innerHTML="Jazz-Plugin Version "+ver;
+ var str=older(ver,latest)?download:"";
+ var fun={'0.0':['MidiOut'],'1.0':['MidiOutList','MidiOutOpen'],'1.1':['MidiInClose','MidiInList','MidiInOpen','MidiOutClose','Time'],'1.2':['MidiOutLong','Support'],'1.3':['MidiOutRaw']};
+ var supp=['midi.in','midi.out','midi.synth','async.call','event.carbon','event.cocoa'];
+ var funcs=[];
+ var support={};
+ for(k in fun){
+  var a=fun[k];
+  for(i in a){
+   funcs.push(a[i]);
+   support[a[i]]=older(ver,k)?false:true;
+  }
+ }
+ funcs.sort();
+ support['midi.in']=!older(ver,'1.1');
+ support['midi.out']=!older(ver,'1.0');
+ support['midi.synth']=true;
+ if(!older(ver,'1.3')){
+  funcs=Jazz.Support();
+ }
+ if(!older(ver,'1.2')){
+  for(var i in funcs) support[funcs[i]]=Jazz.Support(funcs[i]);
+  for(var i in supp) support[supp[i]]=Jazz.Support(supp[i]);
+ }
+ str+="<table class=tab>";
+ for(var i in funcs){
+  var f=funcs[i];
+  var s=support[f]?'yes':'no';
+  str+="<tr><td><a href=http://jazz-soft.net/doc/Jazz-Plugin/"+f+".html>"+f+"()</a></td><td class="+s+">"+s+"</td></tr>";
+ }
+ for(var i in supp){
+  var f=supp[i];
+  var s=support[f]===undefined?'unknown':support[f]?'yes':'no';
+  str+="<tr><td>"+f+"</td><td class="+s+">"+s+"</td></tr>";
+ }
+ str+="</table>";
+ out.innerHTML=str;
+}
+--></script>
+
+</body>
+</html>

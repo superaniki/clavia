@@ -1,0 +1,29 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-family:inherit;font-size:100%;vertical-align:baseline}
+body{line-height:1;color:#000;background:#fff}
+ol,ul{list-style:none}
+table{border-collapse:separate;border-spacing:0;vertical-align:middle}
+caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}
+a img{border:none}
+h1,h2,h3,h4,h5,h6,body,header,p{margin:0;padding:0;border:0;display:block;font-family:Sans-serif}
+h1{font-size:2em}
+h2{font-size:1.5em}
+body{width:100%}
+header{margin:0 auto 10px;width:1024px;height:auto;display:block;}
+header h1{text-align:center;font-size:15pt;padding:10px 0 10px}
+#innerpadding{padding:10px 15px;}
+#innerpadding hgroup{width:60%;float:left;text-transform:uppercase;height:auto}
+#innerpadding h1{font-weight:normal;color:#202020}
+#innerpadding h1 + h2{margin-top:5px;font-weight:bold;color:#e08090}
+#innerpadding div{font-style:italic;text-align:right;color:#505050;font-size:70%}
+#content{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-border-radius:5px;border-radius:5px;margin:0 auto;background:#808080;width:1024px;padding:10px;display:block}
+#wrapper{position:fixed;height:100%;width:100%;overflow:hidden;background-color:#888}
+#canvasBorder{background-color:#40ff40;border:1px solid #ccc;width:800px;height:450px;margin-left:auto;margin-right:auto}
+canvas{margin:0 auto;padding:0;display:block}
+canvas:after{border:5px solid #ccc}
+div#footer{-webkit-border-radius:5px;border-radius:5px;margin:0 auto;width:1024px;background-color:#e0e0e0;height:300px;display:block;margin-top:10px}
+#cooldiv{padding:15px 0 30px}
+.cool{text-align:center;font-size:25pt;color:#000;text-shadow:1px 1px 0 #0e75ab,2px 2px 0 #0b628e,3px 3px 0 #094e72,4px 4px 0 #073b55,8px 8px 10px #888;padding:15px 0 30px}
+.cooly{padding:15px 0 30px;font-size:32pt;color:#000;text-shadow:1px 1px 0 #0e40ab,2px 2px 0 #0b358e,3px 3px 0 #092a72,4px 4px 0 #072055,8px 8px 10px #888}
+.cf{zoom:1}
+.cf:before,.cf:after{content:"";display:table}
+.cf:after{clear:both}

@@ -1,0 +1,54 @@
+
+ 
+ 
+	caat - quickstart:
+	* skapa en director
+	* skapa en scen med diretor
+	* skapa ett objekt
+	-> adda objekt till scen
+	sätt igång director med loop()
+		
+	--Actor-- 
+	är det ennklaste objektet.	
+	även Scene och Director är en sorts Actor.
+	
+	life cycle:
+	visas direkt när scenen finns.
+	längden i scenen kan dock kontrolleras med setFrameTime( start_time, duration )
+	Actor är isExpired(),om scenetime har gått ut
+	ta bort object: discardable - setDiscardable(true)
+	gåt även fästa callback som anropas när 
+	
+	transformations:
+	width och height ändras inte! handlar bara om appearence.
+	translation
+	använd INTE actor.x, använd getter, setters
+	rotation
+	setRotation(radians) + setRotationAnchored( angle_in_radians, center_x, center_y )
+	scale
+	setScale( scale_x, scale_y ) + setScaleAnchored( scale_x, scale_y, anchorX, anchorY )
+	
+	scaler anchor + rotation anchor can be different!
+		
+	Scene 
+	* är en avancerad  ActorContainer
+	* har egen timeline
+	* samma storlek som director = canvas size
+	* skapa grupper med element, annars går det slött (clickeventet..)
+		
+	hooks:
+	- activated,körs när scenen startar
+	- onRenderStart + onRenderEnd, får en tidsparameter 
+	tex:
+		director.onRenderStart= function(director_time) {
+			this.world.Step(1.0/60, 1,1);
+			this.world.ClearForces();
+		};
+	javascript plugg:
+	http://www.adequatelygood.com/2010/3/JavaScript-Module-Pattern-In-Depth
+	
+	modulepattern
+	
+	
+	
+		

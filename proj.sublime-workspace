@@ -1,0 +1,795 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pr",
+				"prototype"
+			],
+			[
+				"C",
+				"Classic"
+			],
+			[
+				"G",
+				"GAMEMODE"
+			],
+			[
+				"g",
+				"gameMode"
+			],
+			[
+				"director",
+				"directorScene"
+			],
+			[
+				"p",
+				"prototype"
+			],
+			[
+				"A",
+				"AddHint"
+			],
+			[
+				"k",
+				"keysCheckmarkers"
+			],
+			[
+				"se",
+				"settings"
+			],
+			[
+				"setP",
+				"setPosition"
+			],
+			[
+				"setF",
+				"setFillStyle"
+			],
+			[
+				"wr",
+				"wrongActor"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/javascripts/game/Constants.js",
+			"settings":
+			{
+				"buffer_size": 2857,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "features.txt",
+			"settings":
+			{
+				"buffer_size": 4587,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/javascripts/game/PrefsScene.js",
+			"settings":
+			{
+				"buffer_size": 9147,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/javascripts/game/PianoActor.js",
+			"settings":
+			{
+				"buffer_size": 13327,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/javascripts/game/PianoScene.js",
+			"settings":
+			{
+				"buffer_size": 15921,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/javascripts/game/ClUtils.js",
+			"settings":
+			{
+				"buffer_size": 11670,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/javascripts/clavioV2.js",
+			"settings":
+			{
+				"buffer_size": 4477,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/layout.jade",
+			"settings":
+			{
+				"buffer_size": 121,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/javascripts/platform.js",
+			"settings":
+			{
+				"buffer_size": 738,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/index.jade",
+			"settings":
+			{
+				"buffer_size": 577,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/stylesheets/style.styl",
+			"settings":
+			{
+				"buffer_size": 2050,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/javascripts/game/namespace.js",
+			"settings":
+			{
+				"buffer_size": 49,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/work/githubs/CAAT/src/Foundation/UI/ShapeActor.js",
+			"settings":
+			{
+				"buffer_size": 5894,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/javascripts/caat.js",
+			"settings":
+			{
+				"buffer_size": 794985,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/work/githubs/CAAT/src/Foundation/ActorContainer.js",
+			"settings":
+			{
+				"buffer_size": 21058,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/work/githubs/CAAT/src/Foundation/Actor.js",
+		"/C/Users/risan1/Dropbox/cybercom/newclavia/public/javascripts/game/ClUtils.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"setQuestion",
+			"CL.UTILS.newQuestion",
+			"newQuestion",
+			"oldQuestion",
+			"setQuestion",
+			"questions",
+			"qNotesMin",
+			"create",
+			"questionAc",
+			"question",
+			"CONFORM",
+			"boundingBox",
+			"bb",
+			"recalcSize",
+			"hint",
+			"positíon",
+			"pos",
+			"target",
+			"currentQuestion",
+			"flashOffBehavior",
+			"clear",
+			"childrenList",
+			"addChild",
+			"EventHandler",
+			"eventh",
+			"width",
+			"createButton",
+			"box.",
+			"that",
+			"gameMode",
+			"mem",
+			"keysCheckmarkers",
+			"that",
+			"checkmarkg",
+			"checkmarkCheckMarkerGroupg",
+			"checkmarkerg",
+			"type",
+			"setLabelPosition",
+			"gameListener",
+			"RENDER_MODE_CONTINUOUS",
+			"gameListener",
+			"setting",
+			"back",
+			"loadSettingsToGui",
+			"currentSelected",
+			"dataId",
+			"getSettingsFromGui",
+			"CL.director",
+			"backButton",
+			"notesChromaticCheckmarkers",
+			"actorArray",
+			"notesDia",
+			"data",
+			"this.id",
+			"id=",
+			"id ",
+			"id",
+			"Keys",
+			"CL.",
+			"__mouseMoveHandler",
+			"labeltext",
+			"mouseEnter",
+			"mouseExit",
+			"mouseMove",
+			"lactor.mouseMove",
+			"lactor.mouseEnter",
+			"__mouseOverHandler",
+			" __mouseOverHandler",
+			"mouseOver",
+			"dragging = ",
+			"lactor.mouseOver",
+			"mouseOver",
+			"dragging = ",
+			"dragging = true",
+			".dragging",
+			"__mouseOverHandler",
+			"mouseEnter",
+			"this.dragging =",
+			"dragging",
+			"mouseover",
+			"mouseup",
+			"listener",
+			"mouse",
+			"setFill",
+			"color",
+			"behaviorList"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/javascripts/game/Constants.js",
+					"settings":
+					{
+						"buffer_size": 2857,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								124,
+								124
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1487.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "features.txt",
+					"settings":
+					{
+						"buffer_size": 4587,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1247,
+								1247
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/javascripts/game/PrefsScene.js",
+					"settings":
+					{
+						"buffer_size": 9147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								586,
+								586
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/javascripts/game/PianoActor.js",
+					"settings":
+					{
+						"buffer_size": 13327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6310,
+								6310
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3257.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public/javascripts/game/PianoScene.js",
+					"settings":
+					{
+						"buffer_size": 15921,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12435,
+								12435
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6498.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "public/javascripts/game/ClUtils.js",
+					"settings":
+					{
+						"buffer_size": 11670,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								169,
+								169
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "public/javascripts/clavioV2.js",
+					"settings":
+					{
+						"buffer_size": 4477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2692,
+								2692
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1367.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "views/layout.jade",
+					"settings":
+					{
+						"buffer_size": 121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38,
+								96
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "public/javascripts/platform.js",
+					"settings":
+					{
+						"buffer_size": 738,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								343,
+								343
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "views/index.jade",
+					"settings":
+					{
+						"buffer_size": 577,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "public/stylesheets/style.styl",
+					"settings":
+					{
+						"buffer_size": 2050,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1390,
+								1390
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 355.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "public/javascripts/game/namespace.js",
+					"settings":
+					{
+						"buffer_size": 49,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/C/work/githubs/CAAT/src/Foundation/UI/ShapeActor.js",
+					"settings":
+					{
+						"buffer_size": 5894,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1161,
+								1161
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "public/javascripts/caat.js",
+					"settings":
+					{
+						"buffer_size": 794985,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								674413,
+								674413
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 343820.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/C/work/githubs/CAAT/src/Foundation/ActorContainer.js",
+					"settings":
+					{
+						"buffer_size": 21058,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1636,
+								1636
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 219.0,
+	"status_bar_visible": true
+}
